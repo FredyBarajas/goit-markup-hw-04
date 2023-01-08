@@ -60,7 +60,7 @@ img {
   display: flex;
   flex-direction: column;
   margin-left: 68px;
-  margin-right: 270px;
+  margin-right: 220px;
 }
 
 .header {
@@ -331,4 +331,19 @@ img {
 }
 .description-team {
   padding: 30px;
+}
+
+.header-icons {
+  fill: var(--principal-text-color);
+  display: flex;
+  align-items: center;
+}
+
+.header-icons:hover,
+.header-icons:focus {
+  fill: var(--color-selected);
+  color: var(--color-selected);
+}
+.header-svg {
+  margin-right: 10px;
 }
