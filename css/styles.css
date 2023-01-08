@@ -199,7 +199,7 @@ img {
 }
 
 .link-footer {
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   line-height: 2em;
   color: white;
@@ -431,4 +431,27 @@ img {
 .clients-box:active {
   border-color: var(--color-selected);
   fill: var(--color-selected);
+}
+
+.find-us {
+  margin-left: 70px;
+  color: var(--secundary-color);
+}
+
+.circle-footer {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  fill: VAR(--secundary-color);
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  background-color: #ffffff10;
+}
+
+.circle-footer:hover,
+.circle-footer:active {
+  background-color: var(--color-selected);
 }
