@@ -56,7 +56,7 @@ img {
 }
 .principal-color {
   background-image: url(../images/fondo.png);
-
+  background-color: rgba(0, 0, 0, 0.5);
   border: none;
   padding: 200px 0;
   min-width: 1200px;
@@ -246,6 +246,8 @@ img {
 .buttons-portfolio:active {
   color: var(--secundary-color);
   background-color: var(--color-selected);
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .subtitles-proyect {
