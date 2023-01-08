@@ -348,3 +348,11 @@ img {
 .header-svg {
   margin-right: 10px;
 }
+
+.advantage {
+  display: flex;
+  padding: 25px 100px;
+  background-color: var(--tertiary-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
