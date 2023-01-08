@@ -50,7 +50,8 @@ img {
   padding-bottom: 94px;
 }
 .principal-color {
-  background-color: var(--brand-color);
+  background-image: url(../images/fondo.png);
+
   border: none;
   padding: 200px 0;
   min-width: 1200px;
