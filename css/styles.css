@@ -394,6 +394,7 @@ img {
 .circle-teams:active {
   background-color: var(--color-selected);
   fill: var(--secundary-color);
+  cursor: pointer;
 }
 .process {
   display: flex;
@@ -444,6 +445,7 @@ img {
 .clients-box:active {
   border-color: var(--color-selected);
   fill: var(--color-selected);
+  cursor: pointer;
 }
 
 .find-us {
@@ -467,4 +469,5 @@ img {
 .circle-footer:hover,
 .circle-footer:active {
   background-color: var(--color-selected);
+  cursor: pointer;
 }
